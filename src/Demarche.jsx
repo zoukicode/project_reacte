@@ -12,18 +12,18 @@ const ActionsSection = () => {
       {
         title: 'Nous luttons contre le gaspillage',
         description: 'En récupérant des échantillons et des dons de produits de cosmétique et d’hygiène.',
-        image: 'src/assets/trash.png',
+        image: './assets/trash.png',
 
       },
       {
         title: 'Nous créons des trousses fait maison',
         description: 'Nos super bénévoles créent des pochons et des trousses pour mettre les produits dedans.',
-        image: 'src/assets/undraw_travelers_kud9.svg',
+        image: './assets/undraw_travelers_kud9.svg',
       },
       {
         title: 'Nous distribuons ces trousses',
         description: 'Dans les foyers pour femmes, les centres d’hébergements, les structures d’accueil de jour et auprès d’associations.',
-        image: 'src/assets/Learning-pana.svg',
+        image: './assets/Learning-pana.svg',
       },
     ];
   

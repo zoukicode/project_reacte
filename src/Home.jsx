@@ -6,6 +6,8 @@ import { CommentNousAider } from './Aide';
 import { Footer } from './Footer';
 import { lazy, Suspense, useState } from 'react';
 
+import imageFille from './assets/feminin-removebg-preview.png';
+
 const Actualit = lazy(() => import("./Home"));
 function charge_page_dom(){
  return(
@@ -131,9 +133,8 @@ export function Home() {
       >
         {/* IMAGE INSIDE THE CARD */}
        
-          <img
-            src="src/assets/feminin-removebg-preview.png"
-            alt="feminin"
+        <img src={imageFille}
+            alt="zouk"
             style={{
               width: "100%",
               height: "100%",
